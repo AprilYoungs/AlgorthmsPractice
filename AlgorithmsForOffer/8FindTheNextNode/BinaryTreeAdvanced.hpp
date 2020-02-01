@@ -20,10 +20,11 @@ using namespace std;
 struct BinaryTreeNode
 {
     int m_nValue;
+    BinaryTreeNode* m_pParent;
     BinaryTreeNode* m_pLeft;
     BinaryTreeNode* m_pRight;
     
-    BinaryTreeNode(int value){m_nValue=value;m_pLeft=nullptr;m_pRight=nullptr;}
+    BinaryTreeNode(int value){m_nValue=value;m_pLeft=nullptr;m_pRight=nullptr;m_pParent=nullptr;}
 };
 
 struct NodeData

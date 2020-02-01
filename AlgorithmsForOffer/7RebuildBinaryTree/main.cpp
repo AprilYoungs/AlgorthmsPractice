@@ -30,21 +30,21 @@ using namespace std;
  */
 
 
-//void Test1(string testName, BinaryTreeNode *pHead)
-//{
-//    printf("----------------------\n%s: \n", testName.c_str());
-//
-//    cout<< "PreOrder: ";
-//    preOrderReadBinaryTree1(pHead);
-//    cout<< endl;
-//    cout<< "inOrder: ";
-//    inOrderReadBinaryTree1(pHead);
-//    cout<< endl;
-//
-//    cout<< "BackOrder: ";
-//    backOrderReadBinaryTree1(pHead);
-//    cout<< endl;
-//}
+void Test1(string testName, BinaryTreeNode *pHead)
+{
+    printf("----------------------\n%s: \n", testName.c_str());
+
+    cout<< "PreOrder: ";
+    preOrderReadBinaryTree1(pHead);
+    cout<< endl;
+    cout<< "inOrder: ";
+    inOrderReadBinaryTree1(pHead);
+    cout<< endl;
+
+    cout<< "BackOrder: ";
+    backOrderReadBinaryTree1(pHead);
+    cout<< endl;
+}
 
 void Test(string testName, BinaryTreeNode *pHead)
 {
@@ -61,6 +61,30 @@ void Test(string testName, BinaryTreeNode *pHead)
     cout<< "BackOrder: ";
     backOrderReadBinaryTree2(pHead);
     cout<< endl;
+}
+
+void test1()
+{
+    vector<NodeData> array = {
+    NodeData(1, true),
+    NodeData(2, true),
+    NodeData(3, true),
+    NodeData(4, true),
+    NodeData(0, false),
+    NodeData(5, true),
+    NodeData(6, true),
+    NodeData(0, false),
+    NodeData(7, true),
+    NodeData(0, false),
+    NodeData(0, false),
+    NodeData(0, false),
+    NodeData(0, false),
+    NodeData(8, true),
+    NodeData(0, false)};
+    
+    BinaryTreeNode *pHead = widthlyBinaryTree(&array);
+   
+    Test1(__func__, pHead);
 }
 
 
@@ -260,6 +284,7 @@ void testRebuild7()
 
 int main(int argc, const char * argv[]) {
     
+    test1();
     test2();
     test3();
     
