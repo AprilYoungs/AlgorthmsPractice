@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>19Regex.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>3RepeatNum.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -92,6 +97,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>119E8DCD23E987FB0079D78D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>119E8DD823E99CD60079D78D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>11F819A023E3C33F007FD1BD</key>
 		<dict>
 			<key>primary</key>
