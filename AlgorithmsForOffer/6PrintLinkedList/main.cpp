@@ -4,7 +4,7 @@
 //
 //  Created by April Yang on 2020/1/31.
 //  Copyright © 2020 April Yang. All rights reserved.
-//
+// 反向打印链表
 
 #include <iostream>
 #include <vector>
