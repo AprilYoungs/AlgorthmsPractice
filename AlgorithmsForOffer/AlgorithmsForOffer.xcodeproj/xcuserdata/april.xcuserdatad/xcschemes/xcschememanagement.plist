@@ -7,52 +7,52 @@
 		<key>10Fibonacci.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>8</integer>
 		</dict>
 		<key>11FindMinNumber.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>9</integer>
 		</dict>
 		<key>12FindMatrixPath.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>10</integer>
 		</dict>
 		<key>13RobotArea.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>11</integer>
 		</dict>
 		<key>14CuttingRope.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>12</integer>
 		</dict>
 		<key>15Binary1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>13</integer>
 		</dict>
 		<key>16Power.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>14</integer>
 		</dict>
 		<key>17Print1ToMaxN.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>15</integer>
 		</dict>
 		<key>18LikedList.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>16</integer>
 		</dict>
 		<key>19Regex.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>17</integer>
 		</dict>
 		<key>20StringIsDigit.xcscheme_^#shared#^_</key>
 		<dict>
@@ -84,40 +84,45 @@
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>26BinaryTreeSubtree.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>3RepeatNum.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>4MatrixArray.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>5ReplaceBlank.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>6PrintLinkedList.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>4MatrixArray.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>5ReplaceBlank.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>6PrintLinkedList.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>7RebuildBinaryTree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>8FindTheNextNode.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 		<key>9StackToQueue.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>7</integer>
 		</dict>
 		<key>AlgorithmsForOffer.xcscheme_^#shared#^_</key>
 		<dict>
@@ -137,7 +142,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>11E5E51223EAE941005991E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11E5E52023EAEDDD005991E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>11F819A023E3C33F007FD1BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11F819AE23E3D029007FD1BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11F819B923E3EF5A007FD1BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11F819C423E4002C007FD1BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

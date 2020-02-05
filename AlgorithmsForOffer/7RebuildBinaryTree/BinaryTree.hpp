@@ -49,7 +49,7 @@ void inOrderReadBinaryTree1(BinaryTreeNode *pHead);
 /// @param pHead 树的根节点
 void backOrderReadBinaryTree1(BinaryTreeNode *pHead);
 
-/// 循环前序遍历
+/// 循环前序遍&历
 /// @param pHead 树的根节点
 vector<int> preOrderReadBinaryTree2(BinaryTreeNode *pHead);
 
