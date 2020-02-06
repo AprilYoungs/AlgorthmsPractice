@@ -69,4 +69,10 @@ void printVector(vector<int> &arr);
 /// 向量是否一致
 bool isVectorIsEqual(vector<int> &vec1, vector<int> &vec2);
 
+BinaryTreeNode* CreateBinaryTreeNode(int value);
+void ConnectTreeNodes(BinaryTreeNode* pParent, BinaryTreeNode* pLeft, BinaryTreeNode* pRight);
+void PrintTreeNode(const BinaryTreeNode* pNode);
+void PrintTree(const BinaryTreeNode* pRoot);
+void DestroyTree(BinaryTreeNode* pRoot);
+
 #endif /* BinaryTree_hpp */
