@@ -75,4 +75,10 @@ void PrintTreeNode(const BinaryTreeNode* pNode);
 void PrintTree(const BinaryTreeNode* pRoot);
 void DestroyTree(BinaryTreeNode* pRoot);
 
+// 从上到下,一层层打印
+void treePrintFromTopToBottom(BinaryTreeNode *pRoot);
+
+// 从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行
+void treePrintByLines(BinaryTreeNode *pRoot);
+
 #endif /* BinaryTree_hpp */

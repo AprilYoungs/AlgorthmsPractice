@@ -107,12 +107,32 @@
 		<key>30StackMinimusFuction.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>29</integer>
 		</dict>
 		<key>31StackPopAndPush.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>30</integer>
+		</dict>
+		<key>32-1PrintTreeLayerByLayer.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>32-2PrintTreeLayerByLayerTwo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
+		<key>32-3PrintTreeLayersAndZ.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>33BinaryTreeIsSearchTree.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
 		</dict>
 		<key>3RepeatNum.xcscheme_^#shared#^_</key>
 		<dict>

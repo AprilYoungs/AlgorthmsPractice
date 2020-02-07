@@ -302,3 +302,64 @@ void DestroyTree(BinaryTreeNode* pRoot)
         DestroyTree(pRight);
     }
 }
+
+
+void treePrintFromTopToBottom(BinaryTreeNode *pRoot)
+{
+    if (pRoot == nullptr)
+    {
+        printf("\n");
+        return;
+    }
+    
+    queue<BinaryTreeNode *> cached{};
+    cached.push(pRoot);
+    
+    while (!cached.empty()) {
+        BinaryTreeNode *node = cached.front();
+        cached.pop();
+        printf("%d\t", node->m_nValue);
+        if (node->m_pLeft != nullptr)
+            cached.push(node->m_pLeft);
+        if (node->m_pRight != nullptr)
+            cached.push(node->m_pRight);
+    }
+    printf("\n");
+}
+
+// 从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行
+void treePrintByLines(BinaryTreeNode *pRoot)
+{
+    if (pRoot == nullptr)
+        return;
+    
+    int nodesToPrint = 1;
+    int stepCount = 0;
+    queue<BinaryTreeNode *> cached{};
+    cached.push(pRoot);
+    
+    while (!cached.empty()) {
+        BinaryTreeNode *node = cached.front();
+        cached.pop();
+        printf("%d\t", node->m_nValue);
+        nodesToPrint--;
+        
+        if (node->m_pLeft != nullptr)
+        {
+            cached.push(node->m_pLeft);
+            stepCount++;
+        }
+        if (node->m_pRight != nullptr)
+        {
+            cached.push(node->m_pRight);
+            stepCount++;
+        }
+        
+        if (nodesToPrint == 0)
+        {
+            printf("\n");
+            nodesToPrint = stepCount;
+            stepCount = 0;
+        }
+    }
+}
